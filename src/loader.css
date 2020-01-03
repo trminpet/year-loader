@@ -1,0 +1,31 @@
+.loader {
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding:2px 8px;
+}
+
+.progress {
+  width: 1%;
+  height: 32px;
+  background-color: #90CAF9;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 32px; /* To center it vertically */
+
+}
+
+.counter {
+ text-align: left;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
